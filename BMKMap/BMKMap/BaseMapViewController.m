@@ -8,9 +8,11 @@
 
 #import "BaseMapViewController.h"
 
-@interface BaseMapViewController () <BMKMapViewDelegate>
+@interface BaseMapViewController () <BMKMapViewDelegate,UIScrollViewDelegate>
 
 @property (nonatomic, weak) BMKMapView *mapView;
+
+@property (nonatomic, strong) UIScrollView *scrollView;
 
 @end
 
@@ -19,15 +21,23 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.automaticallyAdjustsScrollViewInsets = NO;
+    
     self.view.backgroundColor = [UIColor whiteColor];
     
     self.navigationItem.title = @"BaseMap";
     
-    BMKMapView *mapView = [[BMKMapView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)];
+    [self initMap];
+    
+    [self initScrollView];
+    
+}
+
+- (void)initMap {
+    
+    BMKMapView *mapView = [[BMKMapView alloc] initWithFrame:CGRectMake(0, 64, SCREEN_WIDTH, SCREEN_HEIGHT / 2)];
     self.mapView = mapView;
     [self.view addSubview:self.mapView];
-    //地图类型
-    [self.mapView setMapType:BMKMapTypeStandard];
     //缩放
     [self.mapView setZoomEnabled:YES];
     //旋转
@@ -41,7 +51,7 @@
     //3D Touch(不知道什么效果)
     [self.mapView setForceTouchEnabled:NO];
     //热力图
-    [self.mapView setBaiduHeatMapEnabled:NO];
+    [self.mapView setBaiduHeatMapEnabled:YES];
     //logo的位置,logo不能隐藏或者用其他控件阻挡
     self.mapView.logoPosition = BMKLogoPositionLeftBottom;
     //比例尺
@@ -55,7 +65,84 @@
     self.mapView.userTrackingMode = BMKUserTrackingModeFollow;
     [self.mapView showsUserLocation];
     //self.mapView.userLocationVisible = YES;
+
+}
+
+- (void)initScrollView {
+
+    self.scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, CGRectGetMaxY(self.mapView.frame), SCREEN_WIDTH, SCREEN_HEIGHT - CGRectGetHeight(self.mapView.frame) - 64)];
+    self.scrollView.delegate = self;
+    self.scrollView.contentSize = CGSizeMake(SCREEN_WIDTH, SCREEN_HEIGHT);
+    [self.view addSubview:self.scrollView];
     
+    UISegmentedControl *segmentedControll = [[UISegmentedControl alloc] initWithItems:@[@"空白地图",@"标准地图",@"卫星地图"]];
+    segmentedControll.frame = CGRectMake(0, 5, SCREEN_WIDTH, 30);
+    [segmentedControll addTarget:self action:@selector(segmentValueChange:) forControlEvents:UIControlEventValueChanged];
+    [self.scrollView addSubview:segmentedControll];
+    int count = 5;
+    CGFloat width = 44;
+    CGFloat margin = (SCREEN_WIDTH - width * count) / (count + 1);
+    NSArray *name = @[@"移动",@"缩放",@"旋转",@"热力图",@"比例尺"];
+    for (int i = 0; i < count; ++i) {
+        
+        UISwitch *s = [[UISwitch alloc] init];
+        s.tag = i;
+        s.on = YES;
+        [s addTarget:self action:@selector(switchValueChange:) forControlEvents:UIControlEventValueChanged];
+        [self.scrollView addSubview:s];
+        s.frame = CGRectMake((margin + width) * i + margin, CGRectGetMaxY(segmentedControll.frame) + 5, width, 30);
+        
+        UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake((margin + width) * i + margin, CGRectGetMaxY(s.frame), width, 20)];
+        [self.scrollView addSubview:label];
+        label.text = name[i];
+        label.textAlignment = NSTextAlignmentCenter;
+        label.font = [UIFont systemFontOfSize:11];
+        
+    }
+    
+
+}
+
+- (void)segmentValueChange:(UISegmentedControl *)sender {
+
+    switch (sender.selectedSegmentIndex) {
+        case 0:
+            self.mapView.mapType = BMKMapTypeNone;
+            break;
+        case 1:
+            self.mapView.mapType = BMKMapTypeStandard;
+            break;
+        case 2:
+            self.mapView.mapType = BMKMapTypeSatellite;
+            break;
+        default:
+            break;
+    }
+
+}
+
+- (void)switchValueChange:(UISwitch *)sender {
+
+    switch (sender.tag) {
+        case 0:
+            self.mapView.scrollEnabled = sender.on;
+            break;
+        case 1:
+            self.mapView.zoomEnabled = sender.on;
+            break;
+        case 2:
+            self.mapView.rotateEnabled = sender.on;
+            break;
+        case 3:
+            self.mapView.baiduHeatMapEnabled = sender.on;
+            break;
+        case 4:
+            self.mapView.showMapScaleBar = sender.on;
+            break;
+        default:
+            break;
+    }
+
 }
 
 -(void)viewWillAppear:(BOOL)animated

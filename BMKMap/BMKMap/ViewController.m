@@ -44,6 +44,9 @@
     baseMap.className = [BaseMapViewController class];
     [self.functions addObject:baseMap];
     
+    DYFunction *location = [[DYFunction alloc] initWithTitle:@"定位" subtitle:@"LocationMapViewController" className:nil];
+    [self.functions addObject:location];
+    
 }
 
 #pragma mark - 数据源方法
