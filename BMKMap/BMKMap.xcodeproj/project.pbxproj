@@ -21,6 +21,7 @@
 		04D1A3DB1F2842D2001EF624 /* DYFunctionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D1A3DA1F2842D2001EF624 /* DYFunctionCell.m */; };
 		04D1A3DD1F28A973001EF624 /* mapapi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04D1A3DC1F28A973001EF624 /* mapapi.bundle */; };
 		D4DD15260970E9CA27EE9626 /* libPods-BMKMap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F96070981D485A190A9E4133 /* libPods-BMKMap.a */; };
+		E4130A8A1F62BA6200ED9C6B /* IndoorMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4130A891F62BA6200ED9C6B /* IndoorMapViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,8 @@
 		04D1A3DC1F28A973001EF624 /* mapapi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = mapapi.bundle; sourceTree = "<group>"; };
 		76933225D5535477CDF3F144 /* Pods-BMKMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMKMap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BMKMap/Pods-BMKMap.debug.xcconfig"; sourceTree = "<group>"; };
 		784A5D73CD8A86D60E7ECE92 /* Pods-BMKMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMKMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-BMKMap/Pods-BMKMap.release.xcconfig"; sourceTree = "<group>"; };
+		E4130A881F62BA6200ED9C6B /* IndoorMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndoorMapViewController.h; sourceTree = "<group>"; };
+		E4130A891F62BA6200ED9C6B /* IndoorMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndoorMapViewController.m; sourceTree = "<group>"; };
 		F96070981D485A190A9E4133 /* libPods-BMKMap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BMKMap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -123,6 +126,7 @@
 		04D1A3981F283D50001EF624 /* BMKMap */ = {
 			isa = PBXGroup;
 			children = (
+				E4130A8B1F63B43B00ED9C6B /* Tools */,
 				04D1A3D81F2842B7001EF624 /* Cells */,
 				04D1A3D71F284238001EF624 /* Controllers */,
 				04D1A3D01F28412C001EF624 /* Models */,
@@ -183,6 +187,8 @@
 			children = (
 				04D1A3D41F284232001EF624 /* BaseMapViewController.h */,
 				04D1A3D51F284232001EF624 /* BaseMapViewController.m */,
+				E4130A881F62BA6200ED9C6B /* IndoorMapViewController.h */,
+				E4130A891F62BA6200ED9C6B /* IndoorMapViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -211,6 +217,13 @@
 				F96070981D485A190A9E4133 /* libPods-BMKMap.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4130A8B1F63B43B00ED9C6B /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -391,7 +404,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -405,6 +418,7 @@
 				04D1A3D31F284155001EF624 /* DYFunction.m in Sources */,
 				04D1A39E1F283D51001EF624 /* AppDelegate.m in Sources */,
 				04D1A3CE1F283D7B001EF624 /* MMViewController.mm in Sources */,
+				E4130A8A1F62BA6200ED9C6B /* IndoorMapViewController.m in Sources */,
 				04D1A3D61F284232001EF624 /* BaseMapViewController.m in Sources */,
 				04D1A3DB1F2842D2001EF624 /* DYFunctionCell.m in Sources */,
 				04D1A39B1F283D50001EF624 /* main.m in Sources */,

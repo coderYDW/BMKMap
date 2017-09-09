@@ -1,526 +1,3052 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		5BF46306814271EFA2ACD7908C4B6847 /* Pods-BMKMap-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A140440A1B42B6A2EE52DE94FB7F279F /* Pods-BMKMap-dummy.m */; };
-		761BFD2CCB0833D56A42FBABBBFBF1CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXFileReference section */
-		0B22A4B5F1AB27C1FA7D4BDD619C97D9 /* BMKOverlayGLBasicView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKOverlayGLBasicView.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKOverlayGLBasicView.h; sourceTree = "<group>"; };
-		13E1A3BDA30CF31120FFC2475658BABE /* BMKPoiSearchOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKPoiSearchOption.h; path = BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKPoiSearchOption.h; sourceTree = "<group>"; };
-		1458E213C2186115080AA5CC1F6BC968 /* BMKGradient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKGradient.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKGradient.h; sourceTree = "<group>"; };
-		1604300DF178250EBFE3219BB0D6CD62 /* BMKBusLineSearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKBusLineSearch.h; path = BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKBusLineSearch.h; sourceTree = "<group>"; };
-		1B20BE5D3642621C2718ACEB73EBAFB1 /* BMKGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKGeometry.h; path = BaiduMapKit/BaiduMapAPI_Utils.framework/Headers/BMKGeometry.h; sourceTree = "<group>"; };
-		1DFE760085B7EBE1B9DB91F9AB332D81 /* BMKUtilsVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKUtilsVersion.h; path = BaiduMapKit/BaiduMapAPI_Utils.framework/Headers/BMKUtilsVersion.h; sourceTree = "<group>"; };
-		2081EEEAF2AB669AE03F9BFC48745C77 /* BMKOpenOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKOpenOption.h; path = BaiduMapKit/BaiduMapAPI_Utils.framework/Headers/BMKOpenOption.h; sourceTree = "<group>"; };
-		219D81648FE1C3494CD06DB242BAB1C6 /* BMKRouteSearchOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKRouteSearchOption.h; path = BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKRouteSearchOption.h; sourceTree = "<group>"; };
-		2562DEEAF140634181A2FB289DE94537 /* BMKGeocodeSearchOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKGeocodeSearchOption.h; path = BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKGeocodeSearchOption.h; sourceTree = "<group>"; };
-		296B1268ECF2ABDBCAC68426F03B53CD /* BMKPoiSearchType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKPoiSearchType.h; path = BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKPoiSearchType.h; sourceTree = "<group>"; };
-		2A2B718248A7EC08C85CFE8A9E725B68 /* BMKUtilsComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKUtilsComponent.h; path = BaiduMapKit/BaiduMapAPI_Utils.framework/Headers/BMKUtilsComponent.h; sourceTree = "<group>"; };
-		2ADAE40A5B511975BD06A8BDE212EBD8 /* BaiduMapAPI_Radar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Radar.framework; path = BaiduMapKit/BaiduMapAPI_Radar.framework; sourceTree = "<group>"; };
-		3333102375010D0E0E509AFFB7A4CD29 /* BMKNavigation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKNavigation.h; path = BaiduMapKit/BaiduMapAPI_Utils.framework/Headers/BMKNavigation.h; sourceTree = "<group>"; };
-		34EF0F69DD84401947D6D4DF8AED2ED6 /* BMKPolylineView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKPolylineView.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKPolylineView.h; sourceTree = "<group>"; };
-		359869CA33EBAAF5DCBA1E7CDD9B70E1 /* BMKHeatMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKHeatMap.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKHeatMap.h; sourceTree = "<group>"; };
-		35B992C52C4A08D049E0B82033F3A3C7 /* BMKRouteSearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKRouteSearch.h; path = BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKRouteSearch.h; sourceTree = "<group>"; };
-		3BDCBE611C6A7FEBAAF85A27B93F8DC8 /* BMKPinAnnotationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKPinAnnotationView.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKPinAnnotationView.h; sourceTree = "<group>"; };
-		411E4AC5C7127FC9EBC04A3B0E8905DF /* BMKBaseComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKBaseComponent.h; path = BaiduMapKit/BaiduMapAPI_Base.framework/Headers/BMKBaseComponent.h; sourceTree = "<group>"; };
-		42DD203BFB47C7539F1E502B5A3D2399 /* BMKShareUrlSearchOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKShareUrlSearchOption.h; path = BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKShareUrlSearchOption.h; sourceTree = "<group>"; };
-		43D43561DCD36A1B8588138A1B86B275 /* BaiduMapAPI_Search.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Search.framework; path = BaiduMapKit/BaiduMapAPI_Search.framework; sourceTree = "<group>"; };
-		44A72CBA3F6270865DFDE636E9AA35FC /* BMKMultiPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKMultiPoint.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKMultiPoint.h; sourceTree = "<group>"; };
-		465D1FF0170639079CC12D5286ACA2A5 /* BMKOverlayPathView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKOverlayPathView.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKOverlayPathView.h; sourceTree = "<group>"; };
-		46AFCF2B5EE611F7B098C19E10F6D434 /* BMKShape.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKShape.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKShape.h; sourceTree = "<group>"; };
-		4B1D6D2FF2BA5B5AA2392E7F469652E8 /* BMKPolygonView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKPolygonView.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKPolygonView.h; sourceTree = "<group>"; };
-		4CFC6DCE282CB8F449F7D74CEAC7B615 /* BMKRadarVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKRadarVersion.h; path = BaiduMapKit/BaiduMapAPI_Radar.framework/Headers/BMKRadarVersion.h; sourceTree = "<group>"; };
-		51E2EE94D86BD148EC605903B7DA1CED /* BMKSearchVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKSearchVersion.h; path = BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKSearchVersion.h; sourceTree = "<group>"; };
-		5379CEF45C6120F20DB677C2429E8784 /* BMKGeocodeSearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKGeocodeSearch.h; path = BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKGeocodeSearch.h; sourceTree = "<group>"; };
-		59A0510E8B7DDB8C798BE984F0D8068A /* BMKDistrictSearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKDistrictSearch.h; path = BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKDistrictSearch.h; sourceTree = "<group>"; };
-		5AE21FA459FB947DF7C80C4C8F7114BD /* Pods-BMKMap-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BMKMap-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5D25FDDAEB4DA2EBF85327779C0E6385 /* BMKTileLayerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKTileLayerView.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKTileLayerView.h; sourceTree = "<group>"; };
-		5E70580AA06D0C9E3CB52E4F2DDF226A /* BMKPolyline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKPolyline.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKPolyline.h; sourceTree = "<group>"; };
-		63DB7B0B78519EFA556306B3806F34B1 /* BaiduMapAPI_Map.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Map.framework; path = BaiduMapKit/BaiduMapAPI_Map.framework; sourceTree = "<group>"; };
-		6573AEE32E1E1711D3CFD2D7031677D2 /* BMKOpenPoiOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKOpenPoiOption.h; path = BaiduMapKit/BaiduMapAPI_Utils.framework/Headers/BMKOpenPoiOption.h; sourceTree = "<group>"; };
-		66A07F06D85CCC638C6DEDEF0802B622 /* BMKCloudVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKCloudVersion.h; path = BaiduMapKit/BaiduMapAPI_Cloud.framework/Headers/BMKCloudVersion.h; sourceTree = "<group>"; };
-		6945FB44C33F7AFC26E33F9CF9B3EC31 /* BMKFavPoiManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKFavPoiManager.h; path = BaiduMapKit/BaiduMapAPI_Utils.framework/Headers/BMKFavPoiManager.h; sourceTree = "<group>"; };
-		696EFDE7CDBDFE1E8DBFC7655F4BD14C /* BMKOpenRouteOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKOpenRouteOption.h; path = BaiduMapKit/BaiduMapAPI_Utils.framework/Headers/BMKOpenRouteOption.h; sourceTree = "<group>"; };
-		697871A8EB69ED31FBC098BDC38F265A /* BMKCloudSearchInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKCloudSearchInfo.h; path = BaiduMapKit/BaiduMapAPI_Cloud.framework/Headers/BMKCloudSearchInfo.h; sourceTree = "<group>"; };
-		6AC283EFF96F55A73A9F6D70D45E433F /* BMKOpenRoute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKOpenRoute.h; path = BaiduMapKit/BaiduMapAPI_Utils.framework/Headers/BMKOpenRoute.h; sourceTree = "<group>"; };
-		6B174485015DB448AB00F1201A257CAE /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Base.framework; path = BaiduMapKit/BaiduMapAPI_Base.framework; sourceTree = "<group>"; };
-		6CB294C13BC893EF881C24B2BC942A35 /* BMKMapComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKMapComponent.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKMapComponent.h; sourceTree = "<group>"; };
-		76300153CB58A011B8014F15F3A3B8EE /* BMKRadarManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKRadarManager.h; path = BaiduMapKit/BaiduMapAPI_Radar.framework/Headers/BMKRadarManager.h; sourceTree = "<group>"; };
-		7B4B0857C2A08313874BFAC1ACDEFCE7 /* BMKAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKAnnotation.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKAnnotation.h; sourceTree = "<group>"; };
-		7C289075CA054F35E403E7758AB1CA22 /* BMKMapVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKMapVersion.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKMapVersion.h; sourceTree = "<group>"; };
-		7E9EEF41669DB8AC688F6E2970F08688 /* BMKLocationVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKLocationVersion.h; path = BaiduMapKit/BaiduMapAPI_Location.framework/Headers/BMKLocationVersion.h; sourceTree = "<group>"; };
-		80F28D29120BE4419503325481C33187 /* BMKTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKTypes.h; path = BaiduMapKit/BaiduMapAPI_Base.framework/Headers/BMKTypes.h; sourceTree = "<group>"; };
-		82BC9E1554C74E3F2D1D4A787594FE3B /* Pods-BMKMap-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BMKMap-acknowledgements.plist"; sourceTree = "<group>"; };
-		82E81CC4721B9F4FC1D85F19CD492478 /* BMKSuggestionSearchOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKSuggestionSearchOption.h; path = BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKSuggestionSearchOption.h; sourceTree = "<group>"; };
-		839DE81E57C19B789210FC6DBE1A6D35 /* libPods-BMKMap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-BMKMap.a"; path = "libPods-BMKMap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8480053E8DCED8C754A07D472E763D76 /* Pods-BMKMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BMKMap.release.xcconfig"; sourceTree = "<group>"; };
-		87635CC571940186A378BD5035A7EC2C /* BMKSuggestionSearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKSuggestionSearch.h; path = BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKSuggestionSearch.h; sourceTree = "<group>"; };
-		87DC7921364CEE71D3CEA4D697F6B64C /* BMKSearchComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKSearchComponent.h; path = BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKSearchComponent.h; sourceTree = "<group>"; };
-		87FC06D9F2EC2AAB49954EBC91795B9D /* BMKArcline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKArcline.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKArcline.h; sourceTree = "<group>"; };
-		899D73FDA89B8F96E6F3CEFE338B0E78 /* Pods-BMKMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BMKMap.debug.xcconfig"; sourceTree = "<group>"; };
-		8B224F6FA8B8E8AF2BB2D3C4724C168E /* BMKCircleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKCircleView.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKCircleView.h; sourceTree = "<group>"; };
-		8BE4C8D38CC5A5E9FBF2B22ED8E74F12 /* BaiduMapAPI_Location.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Location.framework; path = BaiduMapKit/BaiduMapAPI_Location.framework; sourceTree = "<group>"; };
-		8FD2BB72AE6FC4DB9165462131A304D3 /* BMKLocationService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKLocationService.h; path = BaiduMapKit/BaiduMapAPI_Location.framework/Headers/BMKLocationService.h; sourceTree = "<group>"; };
-		91E1D8657322FDF2724BB2A4D1496EEF /* BMKFavPoiInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKFavPoiInfo.h; path = BaiduMapKit/BaiduMapAPI_Utils.framework/Headers/BMKFavPoiInfo.h; sourceTree = "<group>"; };
-		933E6F1CBD8A722E82A141B78988C262 /* BMKArclineView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKArclineView.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKArclineView.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		96A3E59ED2B7674BC979EA0CB50FE426 /* BMKGeocodeType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKGeocodeType.h; path = BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKGeocodeType.h; sourceTree = "<group>"; };
-		97E05417795562D2B7802535E4B6859C /* BMKBaseIndoorMapInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKBaseIndoorMapInfo.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKBaseIndoorMapInfo.h; sourceTree = "<group>"; };
-		9A313D3BFAC77FBEBAD61D82132BBE6B /* BaiduMapAPI_Utils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Utils.framework; path = BaiduMapKit/BaiduMapAPI_Utils.framework; sourceTree = "<group>"; };
-		9BC9ABAC1E3FFF799E9362C88DD50FDC /* BMKLocationComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKLocationComponent.h; path = BaiduMapKit/BaiduMapAPI_Location.framework/Headers/BMKLocationComponent.h; sourceTree = "<group>"; };
-		9C6F309FAA2C5A12DA15A74FC513E760 /* BMKOpenPanorama.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKOpenPanorama.h; path = BaiduMapKit/BaiduMapAPI_Utils.framework/Headers/BMKOpenPanorama.h; sourceTree = "<group>"; };
-		A140440A1B42B6A2EE52DE94FB7F279F /* Pods-BMKMap-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BMKMap-dummy.m"; sourceTree = "<group>"; };
-		A18B6E1EF7BA6A47E552464BDE1470B6 /* BMKLocationViewDisplayParam.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKLocationViewDisplayParam.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKLocationViewDisplayParam.h; sourceTree = "<group>"; };
-		A2B3DE8D452BD62E49D5EEDADFD86C24 /* BMKOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKOverlay.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKOverlay.h; sourceTree = "<group>"; };
-		A3D3CDB5BFE3C102243FA4A7215CF16A /* mapapi.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = mapapi.bundle; path = BaiduMapKit/BaiduMapAPI_Map.framework/Resources/mapapi.bundle; sourceTree = "<group>"; };
-		A8EF9AC342E5C21364E79828F4BEC2A2 /* BMKOfflineMapType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKOfflineMapType.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKOfflineMapType.h; sourceTree = "<group>"; };
-		AD3E30368DCF15F0C05AAA8F7113EEF7 /* BMKSearchBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKSearchBase.h; path = BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKSearchBase.h; sourceTree = "<group>"; };
-		AD73A5E9E6A13A928784A6F54744C54A /* libcrypto.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcrypto.a; path = BaiduMapKit/thirdlibs/libcrypto.a; sourceTree = "<group>"; };
-		AE2B6258582D0941DF4630AE1E5A589E /* BMKActionPaopaoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKActionPaopaoView.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKActionPaopaoView.h; sourceTree = "<group>"; };
-		B184BFF17412A095AE8A86C585C4F32D /* BaiduMapAPI_Cloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Cloud.framework; path = BaiduMapKit/BaiduMapAPI_Cloud.framework; sourceTree = "<group>"; };
-		B2756C4BA2241999D1810010B6841F7E /* libssl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libssl.a; path = BaiduMapKit/thirdlibs/libssl.a; sourceTree = "<group>"; };
-		B50BA46F45D4FE67B259326E3103C057 /* Pods-BMKMap-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BMKMap-resources.sh"; sourceTree = "<group>"; };
-		BD95E2346AACF1D09C020511E3DC097F /* BMKRouteSearchType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKRouteSearchType.h; path = BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKRouteSearchType.h; sourceTree = "<group>"; };
-		BE01800089419EB509817E89D9E97EA1 /* BMKRadarResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKRadarResult.h; path = BaiduMapKit/BaiduMapAPI_Radar.framework/Headers/BMKRadarResult.h; sourceTree = "<group>"; };
-		C439A35B1414DF02D4990A4329F0C40B /* BMKOfflineMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKOfflineMap.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKOfflineMap.h; sourceTree = "<group>"; };
-		C7FE241B872BF3644F988A0DF83BEE8E /* BMKTileLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKTileLayer.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKTileLayer.h; sourceTree = "<group>"; };
-		CAC9ADCABD97CD477A549DD8E08CC946 /* BMKCloudSearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKCloudSearch.h; path = BaiduMapKit/BaiduMapAPI_Cloud.framework/Headers/BMKCloudSearch.h; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CF5A2D56F55EEFC40A81B451D9D732BF /* BMKUserLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKUserLocation.h; path = BaiduMapKit/BaiduMapAPI_Base.framework/Headers/BMKUserLocation.h; sourceTree = "<group>"; };
-		D045D8F44E85F6B68BF8C33175CB3199 /* BMKPointAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKPointAnnotation.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKPointAnnotation.h; sourceTree = "<group>"; };
-		D31759E17E6FBCB675A0C2112843B9AB /* BMKOpenPoi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKOpenPoi.h; path = BaiduMapKit/BaiduMapAPI_Utils.framework/Headers/BMKOpenPoi.h; sourceTree = "<group>"; };
-		D4BF05509F4715E884117072CBB41A70 /* BMKCircle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKCircle.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKCircle.h; sourceTree = "<group>"; };
-		DB9E15CE2A9E12CE7C67B5AB193DBA1B /* BMKMapView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKMapView.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKMapView.h; sourceTree = "<group>"; };
-		DBDBC85B8B72A6FFDC59AD3D165FB78C /* BMKAnnotationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKAnnotationView.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKAnnotationView.h; sourceTree = "<group>"; };
-		DE907733210C9A5E6C42D2728A83532B /* BMKMapManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKMapManager.h; path = BaiduMapKit/BaiduMapAPI_Base.framework/Headers/BMKMapManager.h; sourceTree = "<group>"; };
-		E03349403C840B1357192AFEFC8EE2EB /* BMKCloudSearchComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKCloudSearchComponent.h; path = BaiduMapKit/BaiduMapAPI_Cloud.framework/Headers/BMKCloudSearchComponent.h; sourceTree = "<group>"; };
-		E3DD8AECD84278EAC338A8ADCA38E3FC /* BMKCloudPOIList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKCloudPOIList.h; path = BaiduMapKit/BaiduMapAPI_Cloud.framework/Headers/BMKCloudPOIList.h; sourceTree = "<group>"; };
-		E6712DCAFFA8EDDCE863D19B005D48FB /* Pods-BMKMap-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BMKMap-frameworks.sh"; sourceTree = "<group>"; };
-		E678761302A3C2726D09812EE79DD15D /* BMKGroundOverlayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKGroundOverlayView.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKGroundOverlayView.h; sourceTree = "<group>"; };
-		EB3C48A259D7678483FB2E27E2AD6319 /* BMKRadarComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKRadarComponent.h; path = BaiduMapKit/BaiduMapAPI_Radar.framework/Headers/BMKRadarComponent.h; sourceTree = "<group>"; };
-		EB732E60E02AA467B3C8E32B76293552 /* BMKShareURLSearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKShareURLSearch.h; path = BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKShareURLSearch.h; sourceTree = "<group>"; };
-		EF456D434ABDB01B9772E6C3AFF3A30D /* BMKBusLineSearchOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKBusLineSearchOption.h; path = BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKBusLineSearchOption.h; sourceTree = "<group>"; };
-		EF931E5905EFDFBAB53D74BF8E062271 /* BMKGroundOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKGroundOverlay.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKGroundOverlay.h; sourceTree = "<group>"; };
-		F275CECFF3E9829C4C5EA8808F3A7704 /* BMKVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKVersion.h; path = BaiduMapKit/BaiduMapAPI_Base.framework/Headers/BMKVersion.h; sourceTree = "<group>"; };
-		F403348337ED03DBCE6E342BDDE21A4E /* BMKMapStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKMapStatus.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKMapStatus.h; sourceTree = "<group>"; };
-		F6600EB7833F86E547A7218795A87812 /* BMKOverlayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKOverlayView.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKOverlayView.h; sourceTree = "<group>"; };
-		F7BFA2DB5CE79229DC53281D4941FC36 /* BMKPolygon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKPolygon.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKPolygon.h; sourceTree = "<group>"; };
-		F8F5BB93D213D5BCE642832920E5D90E /* BMKPoiSearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKPoiSearch.h; path = BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKPoiSearch.h; sourceTree = "<group>"; };
-		FA92334EAA57B1EACDC94AD36BE36FAB /* BMKRadarOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKRadarOption.h; path = BaiduMapKit/BaiduMapAPI_Radar.framework/Headers/BMKRadarOption.h; sourceTree = "<group>"; };
-		FD417B944887D17BD4E3972FB0BAA1FD /* BMKGeneralDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKGeneralDelegate.h; path = BaiduMapKit/BaiduMapAPI_Base.framework/Headers/BMKGeneralDelegate.h; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		976B45D7AB5F4538FD8B7585834CAB17 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				761BFD2CCB0833D56A42FBABBBFBF1CA /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		5807E415D0AF0FF328066BE88554FDF5 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				A3D3CDB5BFE3C102243FA4A7215CF16A /* mapapi.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		59B59DB86C61941E6BF53F6C947068F8 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8440757273A8473D60D36AF19D2DFCE0 /* BaiduMapKit */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		5E277B939F30F90D0315737C898C7F14 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7C46FA7813447A4058FA432E4E1DB499 /* Pods-BMKMap */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		7C46FA7813447A4058FA432E4E1DB499 /* Pods-BMKMap */ = {
-			isa = PBXGroup;
-			children = (
-				5AE21FA459FB947DF7C80C4C8F7114BD /* Pods-BMKMap-acknowledgements.markdown */,
-				82BC9E1554C74E3F2D1D4A787594FE3B /* Pods-BMKMap-acknowledgements.plist */,
-				A140440A1B42B6A2EE52DE94FB7F279F /* Pods-BMKMap-dummy.m */,
-				E6712DCAFFA8EDDCE863D19B005D48FB /* Pods-BMKMap-frameworks.sh */,
-				B50BA46F45D4FE67B259326E3103C057 /* Pods-BMKMap-resources.sh */,
-				899D73FDA89B8F96E6F3CEFE338B0E78 /* Pods-BMKMap.debug.xcconfig */,
-				8480053E8DCED8C754A07D472E763D76 /* Pods-BMKMap.release.xcconfig */,
-			);
-			name = "Pods-BMKMap";
-			path = "Target Support Files/Pods-BMKMap";
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				59B59DB86C61941E6BF53F6C947068F8 /* Pods */,
-				DC6F56BC73CADFC1F281F56EDBFB80E5 /* Products */,
-				5E277B939F30F90D0315737C898C7F14 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		8440757273A8473D60D36AF19D2DFCE0 /* BaiduMapKit */ = {
-			isa = PBXGroup;
-			children = (
-				AE2B6258582D0941DF4630AE1E5A589E /* BMKActionPaopaoView.h */,
-				7B4B0857C2A08313874BFAC1ACDEFCE7 /* BMKAnnotation.h */,
-				DBDBC85B8B72A6FFDC59AD3D165FB78C /* BMKAnnotationView.h */,
-				87FC06D9F2EC2AAB49954EBC91795B9D /* BMKArcline.h */,
-				933E6F1CBD8A722E82A141B78988C262 /* BMKArclineView.h */,
-				411E4AC5C7127FC9EBC04A3B0E8905DF /* BMKBaseComponent.h */,
-				97E05417795562D2B7802535E4B6859C /* BMKBaseIndoorMapInfo.h */,
-				1604300DF178250EBFE3219BB0D6CD62 /* BMKBusLineSearch.h */,
-				EF456D434ABDB01B9772E6C3AFF3A30D /* BMKBusLineSearchOption.h */,
-				D4BF05509F4715E884117072CBB41A70 /* BMKCircle.h */,
-				8B224F6FA8B8E8AF2BB2D3C4724C168E /* BMKCircleView.h */,
-				E3DD8AECD84278EAC338A8ADCA38E3FC /* BMKCloudPOIList.h */,
-				CAC9ADCABD97CD477A549DD8E08CC946 /* BMKCloudSearch.h */,
-				E03349403C840B1357192AFEFC8EE2EB /* BMKCloudSearchComponent.h */,
-				697871A8EB69ED31FBC098BDC38F265A /* BMKCloudSearchInfo.h */,
-				66A07F06D85CCC638C6DEDEF0802B622 /* BMKCloudVersion.h */,
-				59A0510E8B7DDB8C798BE984F0D8068A /* BMKDistrictSearch.h */,
-				91E1D8657322FDF2724BB2A4D1496EEF /* BMKFavPoiInfo.h */,
-				6945FB44C33F7AFC26E33F9CF9B3EC31 /* BMKFavPoiManager.h */,
-				FD417B944887D17BD4E3972FB0BAA1FD /* BMKGeneralDelegate.h */,
-				5379CEF45C6120F20DB677C2429E8784 /* BMKGeocodeSearch.h */,
-				2562DEEAF140634181A2FB289DE94537 /* BMKGeocodeSearchOption.h */,
-				96A3E59ED2B7674BC979EA0CB50FE426 /* BMKGeocodeType.h */,
-				1B20BE5D3642621C2718ACEB73EBAFB1 /* BMKGeometry.h */,
-				1458E213C2186115080AA5CC1F6BC968 /* BMKGradient.h */,
-				EF931E5905EFDFBAB53D74BF8E062271 /* BMKGroundOverlay.h */,
-				E678761302A3C2726D09812EE79DD15D /* BMKGroundOverlayView.h */,
-				359869CA33EBAAF5DCBA1E7CDD9B70E1 /* BMKHeatMap.h */,
-				9BC9ABAC1E3FFF799E9362C88DD50FDC /* BMKLocationComponent.h */,
-				8FD2BB72AE6FC4DB9165462131A304D3 /* BMKLocationService.h */,
-				7E9EEF41669DB8AC688F6E2970F08688 /* BMKLocationVersion.h */,
-				A18B6E1EF7BA6A47E552464BDE1470B6 /* BMKLocationViewDisplayParam.h */,
-				6CB294C13BC893EF881C24B2BC942A35 /* BMKMapComponent.h */,
-				DE907733210C9A5E6C42D2728A83532B /* BMKMapManager.h */,
-				F403348337ED03DBCE6E342BDDE21A4E /* BMKMapStatus.h */,
-				7C289075CA054F35E403E7758AB1CA22 /* BMKMapVersion.h */,
-				DB9E15CE2A9E12CE7C67B5AB193DBA1B /* BMKMapView.h */,
-				44A72CBA3F6270865DFDE636E9AA35FC /* BMKMultiPoint.h */,
-				3333102375010D0E0E509AFFB7A4CD29 /* BMKNavigation.h */,
-				C439A35B1414DF02D4990A4329F0C40B /* BMKOfflineMap.h */,
-				A8EF9AC342E5C21364E79828F4BEC2A2 /* BMKOfflineMapType.h */,
-				2081EEEAF2AB669AE03F9BFC48745C77 /* BMKOpenOption.h */,
-				9C6F309FAA2C5A12DA15A74FC513E760 /* BMKOpenPanorama.h */,
-				D31759E17E6FBCB675A0C2112843B9AB /* BMKOpenPoi.h */,
-				6573AEE32E1E1711D3CFD2D7031677D2 /* BMKOpenPoiOption.h */,
-				6AC283EFF96F55A73A9F6D70D45E433F /* BMKOpenRoute.h */,
-				696EFDE7CDBDFE1E8DBFC7655F4BD14C /* BMKOpenRouteOption.h */,
-				A2B3DE8D452BD62E49D5EEDADFD86C24 /* BMKOverlay.h */,
-				0B22A4B5F1AB27C1FA7D4BDD619C97D9 /* BMKOverlayGLBasicView.h */,
-				465D1FF0170639079CC12D5286ACA2A5 /* BMKOverlayPathView.h */,
-				F6600EB7833F86E547A7218795A87812 /* BMKOverlayView.h */,
-				3BDCBE611C6A7FEBAAF85A27B93F8DC8 /* BMKPinAnnotationView.h */,
-				D045D8F44E85F6B68BF8C33175CB3199 /* BMKPointAnnotation.h */,
-				F8F5BB93D213D5BCE642832920E5D90E /* BMKPoiSearch.h */,
-				13E1A3BDA30CF31120FFC2475658BABE /* BMKPoiSearchOption.h */,
-				296B1268ECF2ABDBCAC68426F03B53CD /* BMKPoiSearchType.h */,
-				F7BFA2DB5CE79229DC53281D4941FC36 /* BMKPolygon.h */,
-				4B1D6D2FF2BA5B5AA2392E7F469652E8 /* BMKPolygonView.h */,
-				5E70580AA06D0C9E3CB52E4F2DDF226A /* BMKPolyline.h */,
-				34EF0F69DD84401947D6D4DF8AED2ED6 /* BMKPolylineView.h */,
-				EB3C48A259D7678483FB2E27E2AD6319 /* BMKRadarComponent.h */,
-				76300153CB58A011B8014F15F3A3B8EE /* BMKRadarManager.h */,
-				FA92334EAA57B1EACDC94AD36BE36FAB /* BMKRadarOption.h */,
-				BE01800089419EB509817E89D9E97EA1 /* BMKRadarResult.h */,
-				4CFC6DCE282CB8F449F7D74CEAC7B615 /* BMKRadarVersion.h */,
-				35B992C52C4A08D049E0B82033F3A3C7 /* BMKRouteSearch.h */,
-				219D81648FE1C3494CD06DB242BAB1C6 /* BMKRouteSearchOption.h */,
-				BD95E2346AACF1D09C020511E3DC097F /* BMKRouteSearchType.h */,
-				AD3E30368DCF15F0C05AAA8F7113EEF7 /* BMKSearchBase.h */,
-				87DC7921364CEE71D3CEA4D697F6B64C /* BMKSearchComponent.h */,
-				51E2EE94D86BD148EC605903B7DA1CED /* BMKSearchVersion.h */,
-				46AFCF2B5EE611F7B098C19E10F6D434 /* BMKShape.h */,
-				EB732E60E02AA467B3C8E32B76293552 /* BMKShareURLSearch.h */,
-				42DD203BFB47C7539F1E502B5A3D2399 /* BMKShareUrlSearchOption.h */,
-				87635CC571940186A378BD5035A7EC2C /* BMKSuggestionSearch.h */,
-				82E81CC4721B9F4FC1D85F19CD492478 /* BMKSuggestionSearchOption.h */,
-				C7FE241B872BF3644F988A0DF83BEE8E /* BMKTileLayer.h */,
-				5D25FDDAEB4DA2EBF85327779C0E6385 /* BMKTileLayerView.h */,
-				80F28D29120BE4419503325481C33187 /* BMKTypes.h */,
-				CF5A2D56F55EEFC40A81B451D9D732BF /* BMKUserLocation.h */,
-				2A2B718248A7EC08C85CFE8A9E725B68 /* BMKUtilsComponent.h */,
-				1DFE760085B7EBE1B9DB91F9AB332D81 /* BMKUtilsVersion.h */,
-				F275CECFF3E9829C4C5EA8808F3A7704 /* BMKVersion.h */,
-				CD8507687C659396581DF267F0D6F6AD /* Frameworks */,
-				5807E415D0AF0FF328066BE88554FDF5 /* Resources */,
-			);
-			name = BaiduMapKit;
-			path = BaiduMapKit;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CD8507687C659396581DF267F0D6F6AD /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6B174485015DB448AB00F1201A257CAE /* BaiduMapAPI_Base.framework */,
-				B184BFF17412A095AE8A86C585C4F32D /* BaiduMapAPI_Cloud.framework */,
-				8BE4C8D38CC5A5E9FBF2B22ED8E74F12 /* BaiduMapAPI_Location.framework */,
-				63DB7B0B78519EFA556306B3806F34B1 /* BaiduMapAPI_Map.framework */,
-				2ADAE40A5B511975BD06A8BDE212EBD8 /* BaiduMapAPI_Radar.framework */,
-				43D43561DCD36A1B8588138A1B86B275 /* BaiduMapAPI_Search.framework */,
-				9A313D3BFAC77FBEBAD61D82132BBE6B /* BaiduMapAPI_Utils.framework */,
-				AD73A5E9E6A13A928784A6F54744C54A /* libcrypto.a */,
-				B2756C4BA2241999D1810010B6841F7E /* libssl.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		DC6F56BC73CADFC1F281F56EDBFB80E5 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				839DE81E57C19B789210FC6DBE1A6D35 /* libPods-BMKMap.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		C0CF6CE36982108E75C9BEAE7422FF07 /* Pods-BMKMap */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B5264E3695719AF19D77C3E05CB382DF /* Build configuration list for PBXNativeTarget "Pods-BMKMap" */;
-			buildPhases = (
-				6C18A40193E0E6EF8762F987A1275768 /* Sources */,
-				976B45D7AB5F4538FD8B7585834CAB17 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-BMKMap";
-			productName = "Pods-BMKMap";
-			productReference = 839DE81E57C19B789210FC6DBE1A6D35 /* libPods-BMKMap.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0700;
-			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = DC6F56BC73CADFC1F281F56EDBFB80E5 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				C0CF6CE36982108E75C9BEAE7422FF07 /* Pods-BMKMap */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXSourcesBuildPhase section */
-		6C18A40193E0E6EF8762F987A1275768 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5BF46306814271EFA2ACD7908C4B6847 /* Pods-BMKMap-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin XCBuildConfiguration section */
-		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_DEBUG=1",
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		11D90DBA3FC3E1CC8E2820A5E024A621 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 899D73FDA89B8F96E6F3CEFE338B0E78 /* Pods-BMKMap.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		825ED0814A4399942039B70DA3546701 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8480053E8DCED8C754A07D472E763D76 /* Pods-BMKMap.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
-				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B5264E3695719AF19D77C3E05CB382DF /* Build configuration list for PBXNativeTarget "Pods-BMKMap" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				11D90DBA3FC3E1CC8E2820A5E024A621 /* Debug */,
-				825ED0814A4399942039B70DA3546701 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>01447F1444168CBA9A23E0E3208D967B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>archive.ar</string>
+			<key>name</key>
+			<string>libcrypto.a</string>
+			<key>path</key>
+			<string>BaiduMapKit/thirdlibs/libcrypto.a</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>028F36C4A563C2C648559066F16CA94D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKOpenPoiOption.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Utils.framework/Headers/BMKOpenPoiOption.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>03EF24C9D50CF3A62277863018BF96B1</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>899D73FDA89B8F96E6F3CEFE338B0E78</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>060C2B7E829608AEEB61263AAE3D4888</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKLocationComponent.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Location.framework/Headers/BMKLocationComponent.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0827BAE921A69715BA5D43430BF85A9F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>QuartzCore.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>0951ECB79A8DDBA8DC3077FA1CC84E6B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>61FE94CBCE30CCEC7711ED0A8D48F3D9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>09ECF878DD78D3CE4CE51526496D3C55</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>E56C5C02761EA0A163EDB52F4AB07FE8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Resources</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0A696E354E09FC9CAC637584A7578ACB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKCloudSearchInfo.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Cloud.framework/Headers/BMKCloudSearchInfo.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0B773CB89711902D049A5E4034DCA596</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>61FE94CBCE30CCEC7711ED0A8D48F3D9</string>
+				<string>13FA8104D69E4B6550EFF77E38670F3E</string>
+				<string>0827BAE921A69715BA5D43430BF85A9F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>iOS</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0C3418E787658CFBC7469293981E131B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0827BAE921A69715BA5D43430BF85A9F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0DA55AC490D75A503A953D121C33D240</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>SVProgressHUD-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0F570D7F9EBCFBB82EB6DB8535C75B30</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKCloudSearch.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Cloud.framework/Headers/BMKCloudSearch.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0F8B0A80DB9D9F7C1921FF4A4A1EFA9D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>BaiduMapAPI_Search.framework</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Search.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1139C37DF2C685A7A9C1F59893FBDA55</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SVProgressAnimatedView.m</string>
+			<key>path</key>
+			<string>SVProgressHUD/SVProgressAnimatedView.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1168214CC41F123C2307EC48BCA3FB2D</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libPods-BMKMap.a</string>
+			<key>path</key>
+			<string>libPods-BMKMap.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>122DA2E5084A4393C29BE363C764795C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>0B773CB89711902D049A5E4034DCA596</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>13FA8104D69E4B6550EFF77E38670F3E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>1597F8077766A45047B5A226477696C1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKTypes.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Base.framework/Headers/BMKTypes.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>18057B6AC0F20227ACEB3BE76D676CA1</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>D058B89EB3B3DF45457A2DCD3971AFFE</string>
+			<key>remoteInfo</key>
+			<string>MBProgressHUD</string>
+		</dict>
+		<key>184D678634C1671B9C39856A7E4ABC69</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B40DC07A8F07962BBACE57712877E3D9</string>
+				<string>DA27434A4F6D1DF6F50022675F49F472</string>
+				<string>83B5FB0F90761BA991ED4F8506EFF7F6</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/MBProgressHUD</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>19FD575AC181BE893755249FACCA2734</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKRadarComponent.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Radar.framework/Headers/BMKRadarComponent.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1AFA89153325A09AD73AD0F15FE4EC4E</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>B40DC07A8F07962BBACE57712877E3D9</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>6.0</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>1B8C1997A9342A41D868956270E6444E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SVProgressAnimatedView.h</string>
+			<key>path</key>
+			<string>SVProgressHUD/SVProgressAnimatedView.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1C289876A4849D6798FC7F154214C5F8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>13FA8104D69E4B6550EFF77E38670F3E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>1C3A14E21A9AE3A1DC93A790A2039856</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKActionPaopaoView.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKActionPaopaoView.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1CE4AD1CD25569BE1F64EBFCEF0437F7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKNavigation.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Utils.framework/Headers/BMKNavigation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1F97048AF18C3EFEDE731BDEECCD58A8</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>9413B669A6203AD71A048A8F824ECDD9</string>
+				<string>1AFA89153325A09AD73AD0F15FE4EC4E</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>20B081607DFB3C3D0D19025DACADB830</key>
+		<dict>
+			<key>fileRef</key>
+			<string>FBCF919B50087901724014BB2660A259</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>22D189C9F65A88D93540FFCDE72A9EA8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKPolylineView.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKPolylineView.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2440470747EED8E4C52813E4D99BD5F3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKUtilsVersion.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Utils.framework/Headers/BMKUtilsVersion.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>247351BE18A8E3933F7499B1901B3D39</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKOpenRouteOption.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Utils.framework/Headers/BMKOpenRouteOption.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>25D97656046ABF969B442F3452B434E8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKMapVersion.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKMapVersion.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>26FC4AB01770159630E4D09E8417E0CB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKPolygonView.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKPolygonView.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2B342A1143B39C7E396A50C6540E2639</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0827BAE921A69715BA5D43430BF85A9F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2CB79F2B6874A00F9624AE3374762EA9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKRadarVersion.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Radar.framework/Headers/BMKRadarVersion.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>47BEF9D903506B003EA5C2B249729489</string>
+				<string>AAF678CED40D3499169D10F63CA0719E</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>2E4910B267E1D81F92D7CBCB4900B37C</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>BaiduMapAPI_Utils.framework</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Utils.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2F84DC791A554C5D69E2802A72323029</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKPoiSearchType.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKPoiSearchType.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>322C8629E5919F4D5A848440B01406E8</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>SVProgressHUD</string>
+			<key>target</key>
+			<string>47F222E1AC05DA4140C4579E5C802749</string>
+			<key>targetProxy</key>
+			<string>ACCB5FC35862DFC14400CF4494CDCA33</string>
+		</dict>
+		<key>36F439408B8C5B21858AE395680EB0AC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKCloudPOIList.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Cloud.framework/Headers/BMKCloudPOIList.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>382EA92E853DB03F03DF30B83235A2EC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKTileLayerView.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKTileLayerView.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>38942AA990A8C9860B0BCFD425A8A551</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A140440A1B42B6A2EE52DE94FB7F279F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3ABE730CF32E90EE9FA50A6265586954</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SVRadialGradientLayer.h</string>
+			<key>path</key>
+			<string>SVProgressHUD/SVRadialGradientLayer.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3ADCF2205026CCF4987B4B466F041A5B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9A61FF7CFF0CF85F0936D9C5DAA18AF6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3C0322AB46EE89C26D0DC23B52CE02F2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.plug-in</string>
+			<key>name</key>
+			<string>SVProgressHUD.bundle</string>
+			<key>path</key>
+			<string>SVProgressHUD/SVProgressHUD.bundle</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3DCA3C569245093FB7A17354B466AB7A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKLocationService.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Location.framework/Headers/BMKLocationService.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3E551BACA8DDF5EAFE4856061ACA5A79</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4F7D845C6C1E29A8D611D4AE7A131D1C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>40E3D58EAAA00832221960BD4A2E976F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKMultiPoint.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKMultiPoint.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>41C2FDEA1194D880074A25623DC9183D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKBaseComponent.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Base.framework/Headers/BMKBaseComponent.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>42CFF2975ADD054794DAC4BA005B7911</key>
+		<dict>
+			<key>fileRef</key>
+			<string>13FA8104D69E4B6550EFF77E38670F3E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>43D58ABC8EE9769359A74D14BD83D335</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SVRadialGradientLayer.m</string>
+			<key>path</key>
+			<string>SVProgressHUD/SVRadialGradientLayer.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>468D52227686179D5C9612B00D1E7D9B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKPolygon.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKPolygon.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>46C37352ECEA9B10A8E57E8EC9FB3E66</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKSearchVersion.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKSearchVersion.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>47BEF9D903506B003EA5C2B249729489</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>ENABLE_TESTABILITY</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>POD_CONFIGURATION_DEBUG=1</string>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>STRIP_INSTALLED_PRODUCT</key>
+				<string>NO</string>
+				<key>SYMROOT</key>
+				<string>${SRCROOT}/../build</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>47F222E1AC05DA4140C4579E5C802749</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>C88376DDD4D69FF31F48BB5E9D33D131</string>
+			<key>buildPhases</key>
+			<array>
+				<string>8BA72FD179CF1E08DBD43F0FFB9BCFB6</string>
+				<string>F97A75346C4F987A62251EE7B04D4AF5</string>
+				<string>A69EA7F1C74BFE2E02F30B2CAD585AD1</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>SVProgressHUD</string>
+			<key>productName</key>
+			<string>SVProgressHUD</string>
+			<key>productReference</key>
+			<string>D58FBDC941A8C25F4EF1C8A34C3B1435</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>4B05D23970C7610E2CA5565C1503EB98</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>SVProgressHUD-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4F7D845C6C1E29A8D611D4AE7A131D1C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SVIndefiniteAnimatedView.h</string>
+			<key>path</key>
+			<string>SVProgressHUD/SVIndefiniteAnimatedView.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>50CDB3329D0B6FEE0E77F20A311EAA3E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4B05D23970C7610E2CA5565C1503EB98</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>51924FAD58EEB0C0955794CB21836422</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKOverlay.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKOverlay.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>53CCA6BAFC7A236B06AF71657674D469</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKSuggestionSearchOption.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKSuggestionSearchOption.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>57D4BF3BBD59CBBB171EF59025791351</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>38942AA990A8C9860B0BCFD425A8A551</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>5A2C5F7C00A4AA2C68B9CCE11FE047A9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKLocationVersion.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Location.framework/Headers/BMKLocationVersion.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5AE21FA459FB947DF7C80C4C8F7114BD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>Pods-BMKMap-acknowledgements.markdown</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5D6D2EB941AF75F25433FF7FA3F4DF0D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BA0492AF956478F1F2FF7CD2D9A3DDEF</string>
+				<string>82A7FAF262D8CD7AFC4413C9FC0088D1</string>
+				<string>ED7ADB26B9D3CFA894DF325654305D4C</string>
+				<string>FC0524DDD289D8CFB051987E45A90DEE</string>
+				<string>D01BBF90D2934CDA3AEB8807F0B6D0D6</string>
+				<string>0F8B0A80DB9D9F7C1921FF4A4A1EFA9D</string>
+				<string>2E4910B267E1D81F92D7CBCB4900B37C</string>
+				<string>01447F1444168CBA9A23E0E3208D967B</string>
+				<string>9581751A6F19C65E86ADB350BFA8B00D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5E0D0331CDC78DB671E7BA44C3C87BD8</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>67BA72BD51E00EA7C912EF0A8D8601BB</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>5E277B939F30F90D0315737C898C7F14</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>7C46FA7813447A4058FA432E4E1DB499</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Targets Support Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5E98A31EFF0DC847EA16B495A42611C6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKUserLocation.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Base.framework/Headers/BMKUserLocation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5F4E169E22AF5F59C7AFAD3749CDC920</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CAD2F541A10351C3D1BE4E7775050C63</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>5FD0A8BDE3D541E41C096C62CA72578F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKRouteSearchOption.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKRouteSearchOption.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5FDD83A1DD4AB93C31CBC070DB27C6A5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKBusLineSearch.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKBusLineSearch.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6110C3011263BEC9B0CA7665F19A9F5C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKGeocodeSearchOption.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKGeocodeSearchOption.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>61FE94CBCE30CCEC7711ED0A8D48F3D9</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CoreGraphics.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreGraphics.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>62EFCCE0FE3954EAC1B7DF207DC9FC02</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKRouteSearchType.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKRouteSearchType.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>648E7F45D6E4DCE98EED9D4E2F003C1E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DA27434A4F6D1DF6F50022675F49F472</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>67BA72BD51E00EA7C912EF0A8D8601BB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>SVProgressHUD.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>695A3FA15E903AE48EB0B3BE336F2467</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BBEF73C06A6731F59D03B53D9E750EA2</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>6D8540795894EC076B5555926E342212</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKOverlayView.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKOverlayView.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6DFEC8C7D226CEF5348B737621DF6E88</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKGeocodeSearch.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKGeocodeSearch.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6FBC558A25C79E29EDE6D3F4ACD1CADD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKPolyline.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKPolyline.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>721FBFDC1B716657E5D1BB71F769A054</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKMapManager.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Base.framework/Headers/BMKMapManager.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7251A91516CB8F70CA2E61D36CD7A256</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKPoiSearch.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKPoiSearch.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7B63ECE42AC450CD7911BB01888D8D33</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>42CFF2975ADD054794DAC4BA005B7911</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>7C46FA7813447A4058FA432E4E1DB499</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>5AE21FA459FB947DF7C80C4C8F7114BD</string>
+				<string>82BC9E1554C74E3F2D1D4A787594FE3B</string>
+				<string>A140440A1B42B6A2EE52DE94FB7F279F</string>
+				<string>E6712DCAFFA8EDDCE863D19B005D48FB</string>
+				<string>B50BA46F45D4FE67B259326E3103C057</string>
+				<string>899D73FDA89B8F96E6F3CEFE338B0E78</string>
+				<string>8480053E8DCED8C754A07D472E763D76</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods-BMKMap</string>
+			<key>path</key>
+			<string>Target Support Files/Pods-BMKMap</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7DB346D0F39D3F0E887471402A8071AB</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>93A4A3777CF96A4AAC1D13BA6DCCEA73</string>
+				<string>122DA2E5084A4393C29BE363C764795C</string>
+				<string>B987A03FBAA75225B884107288FE4800</string>
+				<string>8175FBB1DD9F2880B19A8A9923B7BB35</string>
+				<string>5E277B939F30F90D0315737C898C7F14</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7DBC99A6C02052978ADD677D565857B9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKAnnotationView.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKAnnotationView.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>812FCDF340D4A3EBB56B3FB22C6237E4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKSearchBase.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKSearchBase.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8175FBB1DD9F2880B19A8A9923B7BB35</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>828665247DA589D5B36B3AEC905FEDA1</string>
+				<string>1168214CC41F123C2307EC48BCA3FB2D</string>
+				<string>D58FBDC941A8C25F4EF1C8A34C3B1435</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>828665247DA589D5B36B3AEC905FEDA1</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libMBProgressHUD.a</string>
+			<key>path</key>
+			<string>libMBProgressHUD.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>82A7FAF262D8CD7AFC4413C9FC0088D1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>BaiduMapAPI_Cloud.framework</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Cloud.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>82BC9E1554C74E3F2D1D4A787594FE3B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Pods-BMKMap-acknowledgements.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>83552261B9B96754F022A005D67222A3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKMapComponent.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKMapComponent.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>83B5FB0F90761BA991ED4F8506EFF7F6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>MBProgressHUD-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8480053E8DCED8C754A07D472E763D76</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-BMKMap.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8482C94D24F740B2421C4FD9412A113D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKFavPoiInfo.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Utils.framework/Headers/BMKFavPoiInfo.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>854E54873D5BB881AA6B08B386FD9358</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKBusLineSearchOption.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKBusLineSearchOption.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8610EEBA6A6A66B65B8B337734C420FD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKOpenPanorama.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Utils.framework/Headers/BMKOpenPanorama.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>86948ABDB2A16D3668142435AD63C0CE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKGeocodeType.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKGeocodeType.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>876F9A0168A8F0A287755B7938688D14</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKArcline.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKArcline.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8887E46D74305DAF6FF3215A1E548431</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKGeometry.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Utils.framework/Headers/BMKGeometry.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>88E8C1EF58712967309D9D4EB6B523A0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKCloudVersion.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Cloud.framework/Headers/BMKCloudVersion.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>899D73FDA89B8F96E6F3CEFE338B0E78</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-BMKMap.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8BA72FD179CF1E08DBD43F0FFB9BCFB6</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>20B081607DFB3C3D0D19025DACADB830</string>
+				<string>F5778CB0D88575744AC069D31EDFD389</string>
+				<string>50CDB3329D0B6FEE0E77F20A311EAA3E</string>
+				<string>3ADCF2205026CCF4987B4B466F041A5B</string>
+				<string>8EC7AA08030A5C6B38C45167D621C0AE</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>8BFA8222017A0D2D0DC620102390276D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKOverlayPathView.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKOverlayPathView.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8D2B74EC85F172C5C509CED80325F78E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKSearchComponent.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKSearchComponent.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8D654C2E6DC9AD312FE94829D298C410</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKGroundOverlay.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKGroundOverlay.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8EC7AA08030A5C6B38C45167D621C0AE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>43D58ABC8EE9769359A74D14BD83D335</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>93A4A3777CF96A4AAC1D13BA6DCCEA73</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>text.script.ruby</string>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>name</key>
+			<string>Podfile</string>
+			<key>path</key>
+			<string>../Podfile</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+			<key>xcLanguageSpecificationIdentifier</key>
+			<string>xcode.lang.ruby</string>
+		</dict>
+		<key>9413B669A6203AD71A048A8F824ECDD9</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>B40DC07A8F07962BBACE57712877E3D9</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>6.0</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>94D290C0785C912200FF212CB3478988</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKCircle.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKCircle.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9581751A6F19C65E86ADB350BFA8B00D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>archive.ar</string>
+			<key>name</key>
+			<string>libssl.a</string>
+			<key>path</key>
+			<string>BaiduMapKit/thirdlibs/libssl.a</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>97E5221E84A58172598744D4ADC0BE95</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKCircleView.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKCircleView.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>988FA15379A4032C312C2049FB88101A</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>0951ECB79A8DDBA8DC3077FA1CC84E6B</string>
+				<string>1C289876A4849D6798FC7F154214C5F8</string>
+				<string>2B342A1143B39C7E396A50C6540E2639</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>9A61FF7CFF0CF85F0936D9C5DAA18AF6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SVProgressHUD.m</string>
+			<key>path</key>
+			<string>SVProgressHUD/SVProgressHUD.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A140440A1B42B6A2EE52DE94FB7F279F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-BMKMap-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A2ADEDE4342BD936188609063FF7EC7F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKRadarOption.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Radar.framework/Headers/BMKRadarOption.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A2BAF131DC9B8818B238B7B6017DB21B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKOpenPoi.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Utils.framework/Headers/BMKOpenPoi.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A2EE93E20010A03EFFED492B5B481294</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKPinAnnotationView.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKPinAnnotationView.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A30A2E178E543D47CDE2301AF99418B5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKRouteSearch.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKRouteSearch.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A5416C629D38AD7069BD1B9DF3539C3A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKSuggestionSearch.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKSuggestionSearch.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A54B25C626D70B0D835FC9C93BCD650F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKPoiSearchOption.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKPoiSearchOption.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A55D379C68D2C0AE7666747F379CD26A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKHeatMap.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKHeatMap.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A69EA7F1C74BFE2E02F30B2CAD585AD1</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>3E551BACA8DDF5EAFE4856061ACA5A79</string>
+				<string>B4CB7BFAFD0D6ADA1949AE051C70005D</string>
+				<string>5F4E169E22AF5F59C7AFAD3749CDC920</string>
+				<string>CFBF5226066AF7718AEAD7ECA162A96D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>A8072F6084AA739642437BA9D8DD9DE9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKLocationViewDisplayParam.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKLocationViewDisplayParam.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AAF678CED40D3499169D10F63CA0719E</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>POD_CONFIGURATION_RELEASE=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>STRIP_INSTALLED_PRODUCT</key>
+				<string>NO</string>
+				<key>SYMROOT</key>
+				<string>${SRCROOT}/../build</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>AB99D1E2310ADCEC25BE3D39B8A41899</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKOfflineMapType.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKOfflineMapType.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AC609D62313B7B63AA6C92FED129263E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKShareUrlSearchOption.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKShareUrlSearchOption.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>ACCB5FC35862DFC14400CF4494CDCA33</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>47F222E1AC05DA4140C4579E5C802749</string>
+			<key>remoteInfo</key>
+			<string>SVProgressHUD</string>
+		</dict>
+		<key>AF8FACD1A4950DB43ABD75B3D6AAF42C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKAnnotation.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKAnnotation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B14CA76C997CE0ADE9FD582C4A104CFA</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>67BA72BD51E00EA7C912EF0A8D8601BB</string>
+				<string>4B05D23970C7610E2CA5565C1503EB98</string>
+				<string>0DA55AC490D75A503A953D121C33D240</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/SVProgressHUD</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B1CF570EA63F8F0DF3A39382037180CB</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>67BA72BD51E00EA7C912EF0A8D8601BB</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>B40DC07A8F07962BBACE57712877E3D9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>MBProgressHUD.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B4CB7BFAFD0D6ADA1949AE051C70005D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1B8C1997A9342A41D868956270E6444E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>B50BA46F45D4FE67B259326E3103C057</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-BMKMap-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B5978DCEBDE642047A50DB4A9A042BE5</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>D0AE3164E165BD1E4F6945AAFDBC4446</string>
+			<key>buildPhases</key>
+			<array>
+				<string>57D4BF3BBD59CBBB171EF59025791351</string>
+				<string>7B63ECE42AC450CD7911BB01888D8D33</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>CA34C7EBD637EAD86193CED3B904CEF9</string>
+				<string>322C8629E5919F4D5A848440B01406E8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-BMKMap</string>
+			<key>productName</key>
+			<string>Pods-BMKMap</string>
+			<key>productReference</key>
+			<string>1168214CC41F123C2307EC48BCA3FB2D</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>B5C07B65E65AF66B695A9071E5328BA8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKOpenOption.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Utils.framework/Headers/BMKOpenOption.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B987A03FBAA75225B884107288FE4800</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>C8A412E96628F65B505C4E6C72FFD0A5</string>
+				<string>D154FAE7D7A949FB40C7CBDCD927AC43</string>
+				<string>EAACC160F6B66443DB373E197293F263</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BA0492AF956478F1F2FF7CD2D9A3DDEF</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>BaiduMapAPI_Base.framework</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Base.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BBEF73C06A6731F59D03B53D9E750EA2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>MBProgressHUD.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BFE119C3BB8CF197E3025121012B8394</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKVersion.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Base.framework/Headers/BMKVersion.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C000DD56741A1DF2C52CE76DE534C7B2</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>8480053E8DCED8C754A07D472E763D76</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>C06FF9141450B4236D1F97B3AE97ACAF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKRadarResult.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Radar.framework/Headers/BMKRadarResult.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C070984FE66C6F2AD74BAA21C034D255</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKArclineView.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKArclineView.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C398456F1B1E72E778A6F0587DD32046</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKFavPoiManager.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Utils.framework/Headers/BMKFavPoiManager.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C49FD77A2A4657AF305C0F164A9F616A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>MBProgressHUD.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C88376DDD4D69FF31F48BB5E9D33D131</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>5E0D0331CDC78DB671E7BA44C3C87BD8</string>
+				<string>B1CF570EA63F8F0DF3A39382037180CB</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>C8A412E96628F65B505C4E6C72FFD0A5</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>1C3A14E21A9AE3A1DC93A790A2039856</string>
+				<string>AF8FACD1A4950DB43ABD75B3D6AAF42C</string>
+				<string>7DBC99A6C02052978ADD677D565857B9</string>
+				<string>876F9A0168A8F0A287755B7938688D14</string>
+				<string>C070984FE66C6F2AD74BAA21C034D255</string>
+				<string>41C2FDEA1194D880074A25623DC9183D</string>
+				<string>E5A0D66B675664FC84E0C95AFB8BE930</string>
+				<string>5FDD83A1DD4AB93C31CBC070DB27C6A5</string>
+				<string>854E54873D5BB881AA6B08B386FD9358</string>
+				<string>94D290C0785C912200FF212CB3478988</string>
+				<string>97E5221E84A58172598744D4ADC0BE95</string>
+				<string>36F439408B8C5B21858AE395680EB0AC</string>
+				<string>0F570D7F9EBCFBB82EB6DB8535C75B30</string>
+				<string>F3B46E6B052DC883E590731CD8A1AA3A</string>
+				<string>0A696E354E09FC9CAC637584A7578ACB</string>
+				<string>88E8C1EF58712967309D9D4EB6B523A0</string>
+				<string>D6A6A1E024BCC19757B4CC7D3F5277AD</string>
+				<string>8482C94D24F740B2421C4FD9412A113D</string>
+				<string>C398456F1B1E72E778A6F0587DD32046</string>
+				<string>F62F5298F2838D62A9443C49E7DA2692</string>
+				<string>6DFEC8C7D226CEF5348B737621DF6E88</string>
+				<string>6110C3011263BEC9B0CA7665F19A9F5C</string>
+				<string>86948ABDB2A16D3668142435AD63C0CE</string>
+				<string>8887E46D74305DAF6FF3215A1E548431</string>
+				<string>F7E82CA2324FD03F8E4599F128B39F96</string>
+				<string>8D654C2E6DC9AD312FE94829D298C410</string>
+				<string>DFAD00F9F6A7DA68AFE6CB93B8F736EB</string>
+				<string>A55D379C68D2C0AE7666747F379CD26A</string>
+				<string>060C2B7E829608AEEB61263AAE3D4888</string>
+				<string>3DCA3C569245093FB7A17354B466AB7A</string>
+				<string>5A2C5F7C00A4AA2C68B9CCE11FE047A9</string>
+				<string>A8072F6084AA739642437BA9D8DD9DE9</string>
+				<string>83552261B9B96754F022A005D67222A3</string>
+				<string>721FBFDC1B716657E5D1BB71F769A054</string>
+				<string>E61F4DF4219DA1A4090F1D354F87A5D5</string>
+				<string>25D97656046ABF969B442F3452B434E8</string>
+				<string>D25EB1264905B230373FFB3605021ED7</string>
+				<string>40E3D58EAAA00832221960BD4A2E976F</string>
+				<string>1CE4AD1CD25569BE1F64EBFCEF0437F7</string>
+				<string>DCFBCE39F88DFF8BC2B4DD6D94ED4550</string>
+				<string>AB99D1E2310ADCEC25BE3D39B8A41899</string>
+				<string>B5C07B65E65AF66B695A9071E5328BA8</string>
+				<string>8610EEBA6A6A66B65B8B337734C420FD</string>
+				<string>A2BAF131DC9B8818B238B7B6017DB21B</string>
+				<string>028F36C4A563C2C648559066F16CA94D</string>
+				<string>C943A07E06F772CA2ADE035C20917D02</string>
+				<string>247351BE18A8E3933F7499B1901B3D39</string>
+				<string>51924FAD58EEB0C0955794CB21836422</string>
+				<string>CBBC9E25AE17E650E7E96086DD9829DA</string>
+				<string>8BFA8222017A0D2D0DC620102390276D</string>
+				<string>6D8540795894EC076B5555926E342212</string>
+				<string>A2EE93E20010A03EFFED492B5B481294</string>
+				<string>D1F12A41402E1318DF07A857791F4151</string>
+				<string>7251A91516CB8F70CA2E61D36CD7A256</string>
+				<string>A54B25C626D70B0D835FC9C93BCD650F</string>
+				<string>2F84DC791A554C5D69E2802A72323029</string>
+				<string>468D52227686179D5C9612B00D1E7D9B</string>
+				<string>26FC4AB01770159630E4D09E8417E0CB</string>
+				<string>6FBC558A25C79E29EDE6D3F4ACD1CADD</string>
+				<string>22D189C9F65A88D93540FFCDE72A9EA8</string>
+				<string>19FD575AC181BE893755249FACCA2734</string>
+				<string>FCB35DDC88D044E1D2DB259F88870A2D</string>
+				<string>A2ADEDE4342BD936188609063FF7EC7F</string>
+				<string>C06FF9141450B4236D1F97B3AE97ACAF</string>
+				<string>2CB79F2B6874A00F9624AE3374762EA9</string>
+				<string>A30A2E178E543D47CDE2301AF99418B5</string>
+				<string>5FD0A8BDE3D541E41C096C62CA72578F</string>
+				<string>62EFCCE0FE3954EAC1B7DF207DC9FC02</string>
+				<string>812FCDF340D4A3EBB56B3FB22C6237E4</string>
+				<string>8D2B74EC85F172C5C509CED80325F78E</string>
+				<string>46C37352ECEA9B10A8E57E8EC9FB3E66</string>
+				<string>F378BAA4CED405320DF792E2EBB704C9</string>
+				<string>FEC0B276ED069F828552585DC7CC8EF3</string>
+				<string>AC609D62313B7B63AA6C92FED129263E</string>
+				<string>A5416C629D38AD7069BD1B9DF3539C3A</string>
+				<string>53CCA6BAFC7A236B06AF71657674D469</string>
+				<string>FA7B3C3761CCB48A4D0BE1237BC3D34A</string>
+				<string>382EA92E853DB03F03DF30B83235A2EC</string>
+				<string>1597F8077766A45047B5A226477696C1</string>
+				<string>5E98A31EFF0DC847EA16B495A42611C6</string>
+				<string>CEE3A1E1C52436722AC9BB5F0E8315A8</string>
+				<string>2440470747EED8E4C52813E4D99BD5F3</string>
+				<string>BFE119C3BB8CF197E3025121012B8394</string>
+				<string>5D6D2EB941AF75F25433FF7FA3F4DF0D</string>
+				<string>09ECF878DD78D3CE4CE51526496D3C55</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>BaiduMapKit</string>
+			<key>path</key>
+			<string>BaiduMapKit</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C943A07E06F772CA2ADE035C20917D02</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKOpenRoute.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Utils.framework/Headers/BMKOpenRoute.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CA34C7EBD637EAD86193CED3B904CEF9</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>MBProgressHUD</string>
+			<key>target</key>
+			<string>D058B89EB3B3DF45457A2DCD3971AFFE</string>
+			<key>targetProxy</key>
+			<string>18057B6AC0F20227ACEB3BE76D676CA1</string>
+		</dict>
+		<key>CAD2F541A10351C3D1BE4E7775050C63</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SVProgressHUD.h</string>
+			<key>path</key>
+			<string>SVProgressHUD/SVProgressHUD.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CBBC9E25AE17E650E7E96086DD9829DA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKOverlayGLBasicView.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKOverlayGLBasicView.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CCA9C08C9CBDE367B7BB38B6C0547B94</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C49FD77A2A4657AF305C0F164A9F616A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>CEE3A1E1C52436722AC9BB5F0E8315A8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKUtilsComponent.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Utils.framework/Headers/BMKUtilsComponent.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CFBF5226066AF7718AEAD7ECA162A96D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3ABE730CF32E90EE9FA50A6265586954</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>D01BBF90D2934CDA3AEB8807F0B6D0D6</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>BaiduMapAPI_Radar.framework</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Radar.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D058B89EB3B3DF45457A2DCD3971AFFE</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>1F97048AF18C3EFEDE731BDEECCD58A8</string>
+			<key>buildPhases</key>
+			<array>
+				<string>E9001FCA1D7F025E918399909B4942DA</string>
+				<string>988FA15379A4032C312C2049FB88101A</string>
+				<string>D70C2B60AD15BF12091026A33774F9F7</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>MBProgressHUD</string>
+			<key>productName</key>
+			<string>MBProgressHUD</string>
+			<key>productReference</key>
+			<string>828665247DA589D5B36B3AEC905FEDA1</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>D0AE3164E165BD1E4F6945AAFDBC4446</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>03EF24C9D50CF3A62277863018BF96B1</string>
+				<string>C000DD56741A1DF2C52CE76DE534C7B2</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>D154FAE7D7A949FB40C7CBDCD927AC43</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BBEF73C06A6731F59D03B53D9E750EA2</string>
+				<string>C49FD77A2A4657AF305C0F164A9F616A</string>
+				<string>184D678634C1671B9C39856A7E4ABC69</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>MBProgressHUD</string>
+			<key>path</key>
+			<string>MBProgressHUD</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D1F12A41402E1318DF07A857791F4151</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKPointAnnotation.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKPointAnnotation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D25EB1264905B230373FFB3605021ED7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKMapView.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKMapView.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D41D8CD98F00B204E9800998ECF8427E</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastSwiftUpdateCheck</key>
+				<string>0730</string>
+				<key>LastUpgradeCheck</key>
+				<string>0700</string>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>2D8E8EC45A3A1A1D94AE762CB5028504</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+			</array>
+			<key>mainGroup</key>
+			<string>7DB346D0F39D3F0E887471402A8071AB</string>
+			<key>productRefGroup</key>
+			<string>8175FBB1DD9F2880B19A8A9923B7BB35</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>D058B89EB3B3DF45457A2DCD3971AFFE</string>
+				<string>B5978DCEBDE642047A50DB4A9A042BE5</string>
+				<string>47F222E1AC05DA4140C4579E5C802749</string>
+			</array>
+		</dict>
+		<key>D58FBDC941A8C25F4EF1C8A34C3B1435</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libSVProgressHUD.a</string>
+			<key>path</key>
+			<string>libSVProgressHUD.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>D6A6A1E024BCC19757B4CC7D3F5277AD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKDistrictSearch.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKDistrictSearch.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D70C2B60AD15BF12091026A33774F9F7</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>695A3FA15E903AE48EB0B3BE336F2467</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>DA27434A4F6D1DF6F50022675F49F472</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>MBProgressHUD-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DCFBCE39F88DFF8BC2B4DD6D94ED4550</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKOfflineMap.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKOfflineMap.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DFAD00F9F6A7DA68AFE6CB93B8F736EB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKGroundOverlayView.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKGroundOverlayView.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E56C5C02761EA0A163EDB52F4AB07FE8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.plug-in</string>
+			<key>name</key>
+			<string>mapapi.bundle</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Map.framework/Resources/mapapi.bundle</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E5A0D66B675664FC84E0C95AFB8BE930</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKBaseIndoorMapInfo.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKBaseIndoorMapInfo.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E61F4DF4219DA1A4090F1D354F87A5D5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKMapStatus.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKMapStatus.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E6712DCAFFA8EDDCE863D19B005D48FB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-BMKMap-frameworks.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E9001FCA1D7F025E918399909B4942DA</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>648E7F45D6E4DCE98EED9D4E2F003C1E</string>
+				<string>CCA9C08C9CBDE367B7BB38B6C0547B94</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>EAACC160F6B66443DB373E197293F263</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>4F7D845C6C1E29A8D611D4AE7A131D1C</string>
+				<string>FBCF919B50087901724014BB2660A259</string>
+				<string>1B8C1997A9342A41D868956270E6444E</string>
+				<string>1139C37DF2C685A7A9C1F59893FBDA55</string>
+				<string>CAD2F541A10351C3D1BE4E7775050C63</string>
+				<string>9A61FF7CFF0CF85F0936D9C5DAA18AF6</string>
+				<string>3ABE730CF32E90EE9FA50A6265586954</string>
+				<string>43D58ABC8EE9769359A74D14BD83D335</string>
+				<string>F10EC8AC26454FF867905AFD638D67BC</string>
+				<string>B14CA76C997CE0ADE9FD582C4A104CFA</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>SVProgressHUD</string>
+			<key>path</key>
+			<string>SVProgressHUD</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>ED7ADB26B9D3CFA894DF325654305D4C</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>BaiduMapAPI_Location.framework</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Location.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F10EC8AC26454FF867905AFD638D67BC</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>3C0322AB46EE89C26D0DC23B52CE02F2</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Resources</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F378BAA4CED405320DF792E2EBB704C9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKShape.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKShape.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F3B46E6B052DC883E590731CD8A1AA3A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKCloudSearchComponent.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Cloud.framework/Headers/BMKCloudSearchComponent.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F5778CB0D88575744AC069D31EDFD389</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1139C37DF2C685A7A9C1F59893FBDA55</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F62F5298F2838D62A9443C49E7DA2692</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKGeneralDelegate.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Base.framework/Headers/BMKGeneralDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F7E82CA2324FD03F8E4599F128B39F96</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKGradient.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKGradient.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F97A75346C4F987A62251EE7B04D4AF5</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>FA0B064F7F1C0B793434C8E857BAE7B9</string>
+				<string>0C3418E787658CFBC7469293981E131B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>FA0B064F7F1C0B793434C8E857BAE7B9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>13FA8104D69E4B6550EFF77E38670F3E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>FA7B3C3761CCB48A4D0BE1237BC3D34A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKTileLayer.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKTileLayer.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FBCF919B50087901724014BB2660A259</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SVIndefiniteAnimatedView.m</string>
+			<key>path</key>
+			<string>SVProgressHUD/SVIndefiniteAnimatedView.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FC0524DDD289D8CFB051987E45A90DEE</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>BaiduMapAPI_Map.framework</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Map.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FCB35DDC88D044E1D2DB259F88870A2D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKRadarManager.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Radar.framework/Headers/BMKRadarManager.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FEC0B276ED069F828552585DC7CC8EF3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BMKShareURLSearch.h</string>
+			<key>path</key>
+			<string>BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKShareURLSearch.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>D41D8CD98F00B204E9800998ECF8427E</string>
+</dict>
+</plist>

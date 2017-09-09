@@ -170,7 +170,7 @@
     coor.latitude = 39.915;
     coor.longitude = 116.404;
     annotation.coordinate = coor;
-    annotation.title = @"北京天安门";
+    annotation.title = @"This is BeiJing";
     [_mapView addAnnotation:annotation];
 }
 

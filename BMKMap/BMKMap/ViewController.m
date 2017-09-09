@@ -8,8 +8,9 @@
 
 #import "ViewController.h"
 #import "DYFunction.h"
-#import "BaseMapViewController.h"
 #import "DYFunctionCell.h"
+#import "BaseMapViewController.h"
+#import "IndoorMapViewController.h"
 
 @interface ViewController () <UITableViewDelegate,UITableViewDataSource>
 
@@ -44,8 +45,9 @@
     baseMap.className = [BaseMapViewController class];
     [self.functions addObject:baseMap];
     
-    DYFunction *location = [[DYFunction alloc] initWithTitle:@"定位" subtitle:@"LocationMapViewController" className:nil];
+    DYFunction *location = [[DYFunction alloc] initWithTitle:@"定位和室内" subtitle:@"IndoorMapViewController" className:[IndoorMapViewController class]];
     [self.functions addObject:location];
+    
     
 }
 
